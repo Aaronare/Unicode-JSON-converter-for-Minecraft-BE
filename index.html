@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unicode Converter MC</title>
+   	 	<meta charset="UTF-8">
+   	 	<meta name="viewport" content="width=device-width, user-scalable=no">
+   	 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="main.js"></script>
+    	<script type="text/javascript" src="matrix.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="initialToast" class="initial-toast">
+			Paste your JSON Code in text field... 
+		</div>
+		<div class="modal" id="helpModal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2>Converter Guide</h2>
+					<button class="close-button" onclick="closeModal()">×</button>
+				</div>
+				<div class="modal-body">
+					<div class="instruction-section">
+						<h3>⚠️ Important Disclaimer</h3>
+						<p class="warning">Always backup your original JSON files before making any modifications to your Resource or Behavior packs!</p>
+					</div>
+
+					<div class="instruction-section">
+						<h3>📝 Instructions</h3>
+						<ol>
+							<li>Prepare your JSON file:
+								<ul>
+									<li>Locate your Minecraft Resource/Behavior pack JSON file</li>
+									<li>Make sure to backup the original file</li>
+								</ul>
+							</li>
+							<li>Click "Choose a file" or paste your JSON code into the input box</li>
+							<li>Click "Convert", then "Copy" the converted text</li>
+							<li>Replace the original text in your pack files</li>
+						</ol>
+					</div>
+
+					<div class="instruction-section">
+						<h3>💡 Tips</h3>
+						<ul>
+							<li>Verify your JSON format before converting</li>
+							<li>Test your pack after modification</li>
+						</ul>
+					</div>
+
+					<div class="modal-footer">
+						By Aaron_Gamer
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<canvas id="matrixBackground"></canvas>
+		
+		<div class="container">
+			<header>
+				<div class="title-container">
+					<h1 id="title">Unicode Converter MCBE</h1>
+					<div class="help-icon" title="Convert text to Unicode format">?</div>
+				</div>
+				<div class="description">
+					Encode Your Minecraft JSON code
+				</div>
+				<div id="creator">Created by: <a href="https://github.com/Aaronare">@Aaron_Gamer</a></div>
+			</header> 
+
+			<main>
+				<form id="fm" name="fm">
+					<div class="input-section">
+						<div id="file_input_div">
+							<label for="file_input" class="file-label">Choose a file:</label>
+							<input type="file" id="file_input" accept=".json">
+						</div>
+						
+						<div id="input_div">
+							<textarea id="input" placeholder="Enter text here..."></textarea>
+						</div>
+					</div>
+
+					<div id="convert_div">
+						<input type="button" id="convert" onclick="make();" value="Convert" />
+						<input type="button" id="convert" onclick="copy();" value="Copy" />
+					</div>
+
+					<div class="output-section">
+						<p id="copy_text">↓ Copy and use the text below</p>			
+						<textarea id="output" readonly></textarea>
+					</div>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
