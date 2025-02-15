@@ -1,4 +1,8 @@
+
+![Screenshot (27)](https://github.com/user-attachments/assets/1b41713e-dcc7-4738-ba61-fcb633bc56c8)
+
 Minecraft BE JSON (Unicode) Converter/Encoder
+
 🔹 Protect Your Minecraft Addon JSON Code!
 Are you a Minecraft Bedrock addon creator worried about your JSON files being taken and used without permission? This JSON (Unicode) Converter/Encoder helps secure your addon’s JSON code by encoding it into a less readable format while remaining fully functional in Minecraft. While this method offers some protection, it is highly recommended to use additional obfuscation techniques for better security.
 
