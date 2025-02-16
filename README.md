@@ -31,16 +31,18 @@ Using this tool is simple! Follow these steps to encode your JSON files:
 -  Back up your original JSON files before encoding to prevent data loss.
 -This tool provides basic protection, but it is not a foolproof security measure—for better protection, consider additional obfuscation techniques.
 
-
-##### `The full source code will be released soon, allowing developers to explore and improve upon the tool.`
-
-Hope this tool helps! If you have any suggestions or feedback, feel free to share. Happy mining! ⛏️
-
 <p align="center">
   <a href="https://aaronare.github.io/Unicode-JSON-converter-for-Minecraft-BE/">
     <img src="https://github.com/user-attachments/assets/94613cf3-335d-4465-b768-ff094e5324eb" alt="Alt Text" width="300">
   </a>
 </p>
+
+
+##### `The full source code will be released soon, allowing developers to explore and improve upon the tool.`
+
+Hope this tool helps! If you have any suggestions or feedback, feel free to share. Happy mining! ⛏️
+
+
 
 
 
