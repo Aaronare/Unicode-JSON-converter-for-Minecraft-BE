@@ -37,7 +37,7 @@ Using this tool is simple! Follow these steps to encode your JSON files:
 
 ## AFTER
 
-// Tool By Aaron_Gamer - Github
+
 `{
   "\u0066\u006F\u0072\u006D\u0061\u0074\u005F\u0076\u0065\u0072\u0073\u0069\u006F\u006E": "\u0031\u002E\u0032\u0030\u002E\u0031\u0030",
   "\u006D\u0069\u006E\u0065\u0063\u0072\u0061\u0066\u0074\u003A\u0069\u0074\u0065\u006D" }
