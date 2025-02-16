@@ -1,11 +1,7 @@
 
 ![Screenshot (27)](https://github.com/user-attachments/assets/1b41713e-dcc7-4738-ba61-fcb633bc56c8)
 
-<p align="center">
-  <a href="https://aaronare.github.io/Unicode-JSON-converter-for-Minecraft-BE/">
-    <img src="https://github.com/user-attachments/assets/94613cf3-335d-4465-b768-ff094e5324eb" alt="Alt Text" width="300">
-  </a>
-</p>
+
 
 
 ## **Minecraft BE JSON (Unicode) Converter/Encoder**
@@ -40,7 +36,11 @@ Using this tool is simple! Follow these steps to encode your JSON files:
 
 Hope this tool helps! If you have any suggestions or feedback, feel free to share. Happy mining! ⛏️
 
-[![Alt Text](https://github.com/user-attachments/assets/94613cf3-335d-4465-b768-ff094e5324eb)](https://aaronare.github.io/Unicode-JSON-converter-for-Minecraft-BE/)
+<p align="center">
+  <a href="https://aaronare.github.io/Unicode-JSON-converter-for-Minecraft-BE/">
+    <img src="https://github.com/user-attachments/assets/94613cf3-335d-4465-b768-ff094e5324eb" alt="Alt Text" width="300">
+  </a>
+</p>
 
 
 
